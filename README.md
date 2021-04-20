@@ -3,9 +3,10 @@ A battery powered WiFi temperature sensor.
 
 Because of its rather simple function (showing the temperature), this board can also serve as a base for other IOT projects. It embeds many basic features:
 - USB to UART (CH340G)
-- battery management (MCP73831)
-- battery level indicator
-- load sharing between battery and USB
+- Auto-reset for code upload
+- Battery management (MCP73831)
+- Battery level indicator
+- Load sharing between battery and USB
 - ESP8266 minimal wiring
 
 ![](pictures/schematic.png)
