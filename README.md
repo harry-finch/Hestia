@@ -8,9 +8,9 @@ Because of its rather simple function (showing the temperature), this board can 
 - load sharing between battery and USB
 - ESP8266 minimal wiring
 
-![](schematic.png)
+![](pictures/schematic.png)
 
-![](3d.png)
+![](pictures/3d.png)
 
 ## Temperature sensor
 This project uses the MCP9808 chip to measure the temperature. The reason for choosing this IC is because it uses I2C and will provide a more accurate reading than the MCU's ADC.
